@@ -1,0 +1,89 @@
+{
+  "lang": "한국어",
+  "date": "ko-KR",
+  "title": "Wiqi",
+
+  "minecraft": "마인크래프트",
+  "release": "릴리스",
+  "snapshot": "스냅샷",
+  "credits": "크레딧",
+
+  "loading": "불러오는 중...",
+
+  "not_found_doc": "문서를 찾을 수 없습니다: ",
+  "not_found_news": "뉴스를 불러올 수 없습니다: ",
+  "not_match_doc": "일치하는 문서가 없습니다: ",
+
+  "loading_doc": "문서를 불러오는 중입니다...",
+
+  "home": {
+    "news": "최신 스냅샷/릴리스",
+    "loading": "불러오는 중...",
+    "info_1": "데이터 팩을 처음 접하면서 코딩 지식이 있는 사람을 대상으로 합니다.",
+    "info_2": "데이터 팩이라는 도구를 바탕으로 본인의 프로젝트, 맵을 쉽게 제작하기 위한 것을 목표로합니다.",
+    "info_3": "데이터 팩 및 마인크래프트를 보다 깊이 연구하고, 복잡한 기능과 활용법을 다룹니다.",
+    "link": "유용한 링크",
+    "link_official": "minecraft.net",
+    "official": "마인크래프트 공식 사이트",
+    "link_wiki": "minecraft.wiki",
+    "wiki": "마인크래프트 위키",
+    "link_mojira": "mojira.dev",
+    "mojira": "버그 탐색기",
+    "link_mccgadgets": "mcc-gadgets",
+    "mccgadgets": "버전 업데이트 글",
+    "link_mcstacker": "mcstacker.net",
+    "mcstacker": "명령어 생성기",
+    "link_misode": "misode.github.io",
+    "misode": "데이터 팩 생성 도구",
+    "link_mcsrc": "mcsrc.dev",
+    "mcsrc": "Minecraft 소스 검색",
+    "link_bdengine": "bdengine.app",
+    "bdengine": "표시 모델링",
+    "link_brigadier": "brigadier",
+    "brigadier": "brigadier",
+    "versions": "버전 기록",
+    "release": "릴리스",
+    "snapshot": "스냅샷",
+    "pre": "프리릴리스",
+    "more_loading": "더 불러오기",
+    "admin": "총 관리자",
+    "editor": "편집자",
+    "source": "소스 코드",
+    "info_4": "위키 및 문서 수정은 누구나 자유롭게 참여할 수 있습니다."
+  },
+  "topbar": {
+    "home": "메인 페이지로 이동",
+    "view_source": "소스 코드 보기",
+    "random": "무작위 페이지",
+    "search": "위키에서 검색...",
+    "lang": "언어",
+    "profile": "프로필",
+    "theme": "테마",
+    "light": "라이트 모드",
+    "dark": "다크 모드",
+    "layout": "레이아웃",
+    "nav": "네비게이션 컨트롤",
+    "toc": "목차",
+    "toc_empty": "목차가 없습니다",
+    "top": "맨 위로",
+    "bottom": "맨 아래로"
+  },
+  "sidebar": {
+    "list": "목록",
+    "home": "홈",
+    "docs": "문서",
+    "calc": "계산기",
+    "edit": "편집기",
+    "etc": "기타",
+    "version": "위키 마인크래프트 버전",
+    "wiki_credits": "위키 크레딧"
+  },
+  "pages": {
+    "calc": "계산기",
+    "editor": "에디터"
+  },
+  "search": {
+    "result": "검색 결과",
+    "other_keyword": "다른 검색어를 입력하세요."
+  }
+}

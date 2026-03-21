@@ -1,0 +1,89 @@
+{
+  "lang": "English",
+  "date": "en-US",
+  "title": "Wiqi",
+
+  "minecraft": "Minecraft",
+  "release": "Release",
+  "snapshot": "Snapshot",
+  "credits": "Credits",
+
+  "loading": "Loading...",
+
+  "not_found_doc": "Document not found: ",
+  "not_found_news": "Failed to load news: ",
+  "not_match_doc": "No matching documents found: ",
+
+  "loading_doc": "Loading document...",
+
+  "home": {
+    "news": "Latest Snapshot/Release",
+    "loading": "Loading...",
+    "info_1": "This guide is intended for people with coding knowledge who are new to data packs.",
+    "info_2": "Its goal is to help you easily create your own projects and maps using the data pack system.",
+    "info_3": "It explores data packs and Minecraft in greater depth, covering advanced features and usage.",
+    "link": "Useful Links",
+    "link_official": "minecraft.net",
+    "official": "Minecraft Official Website",
+    "link_wiki": "minecraft.wiki",
+    "wiki": "Minecraft Wiki",
+    "link_mojira": "mojira.dev",
+    "mojira": "bug tracker",
+    "link_mccgadgets": "mcc-gadgets",
+    "mccgadgets": "Version update notes",
+    "link_mcstacker": "mcstacker.net",
+    "mcstacker": "Command generator",
+    "link_misode": "misode.github.io",
+    "misode": "Datapack generator",
+    "link_mcsrc": "mcsrc.dev",
+    "mcsrc": "Minecraft source search",
+    "link_bdengine": "bdengine.app",
+    "bdengine": "display modeling utilities",
+    "link_brigadier": "brigadier",
+    "brigadier": "brigadier",
+    "versions": "Version History",
+    "release": "Release",
+    "snapshot": "Snapshot",
+    "pre": "Pre-release",
+    "more_loading": "Load More",
+    "admin": "Administrator",
+    "editor": "Editor",
+    "source": "Source Code",
+    "info_4": "Anyone is free to contribute by editing the wiki and documents."
+  },
+  "topbar": {
+    "home": "Go to main page",
+    "view_source": "View source code",
+    "random": "Random page",
+    "search": "Search the wiki...",
+    "lang": "Language",
+    "profile": "Profile",
+    "theme": "Theme",
+    "light": "Light Mode",
+    "dark": "Dark Mode",
+    "layout": "Layout",
+    "nav": "Navigation Control",
+    "toc": "Table of Contents",
+    "toc_empty": "No headings found",
+    "top": "To Top",
+    "bottom": "To Bottom"
+  },
+  "sidebar": {
+    "list": "List",
+    "home": "Home",
+    "docs": "Documents",
+    "calc": "Calculator",
+    "edit": "Editor",
+    "etc": "Etc",
+    "version": "Wiki Minecraft Version",
+    "wiki_credits": "Wiki Credits"
+  },
+  "pages": {
+    "calc": "Calculator",
+    "editor": "Editor"
+  },
+  "search": {
+    "result": "Search Results",
+    "other_keyword": "Try a different keyword."
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "lang": "日本語",
+  "date": "ja-JP",
+  "title": "Wiqi",
+
+  "minecraft": "マインクラフト",
+  "release": "リリース",
+  "snapshot": "スナップショット",
+  "credits": "クレジット",
+
+  "loading": "読み込み中...",
+
+  "not_found_doc": "ドキュメントが見つかりません: ",
+  "not_found_news": "ニュースを読み込めません: ",
+  "not_match_doc": "一致するドキュメントがありません: ",
+
+  "loading_doc": "ドキュメントを読み込み中...",
+
+  "home": {
+    "news": "最新スナップショット ・ リリース",
+    "loading": "読み込み中...",
+    "info_1": "データパックを初めて扱う、プログラミング知識のある方向けのガイドです。",
+    "info_2": "データパックというツールを使って、自分のプロジェクトやマップを簡単に作成することを目的としています。",
+    "info_3": "データパックとマインクラフトをより深く研究し、高度な機能や活用方法を扱います。",
+    "link": "便利なリンク",
+    "link_official": "minecraft.net",
+    "official": "マインクラフト公式サイト",
+    "link_wiki": "minecraft.wiki",
+    "wiki": "マインクラフトWiki",
+    "link_mojira": "mojira.dev",
+    "mojira": "バグトラッカー",
+    "link_mccgadgets": "mcc-gadgets",
+    "mccgadgets": "リリースノート",
+    "link_mcstacker": "mcstacker.net",
+    "mcstacker": "コマンドジェネレータ",
+    "link_misode": "misode.github.io",
+    "misode": "データパック作成ツール",
+    "link_mcsrc": "mcsrc.dev",
+    "mcsrc": "Minecraft ソース検索",
+    "link_bdengine": "bdengine.app",
+    "bdengine": "display modeling ユーティリティ",
+    "link_brigadier": "brigadier",
+    "brigadier": "brigadier",
+    "versions": "バージョンの履歴",
+    "release": "リリース",
+    "snapshot": "スナップショット",
+    "pre": "プレリリース",
+    "more_loading": "もっと読み込む",
+    "admin": "管理者",
+    "editor": "編集者",
+    "source": "ソースコード",
+    "info_4": "Wikiやドキュメントの編集には誰でも自由に参加できます。"
+  },
+  "topbar": {
+    "home": "メインページへ移動",
+    "view_source": "ソースコードを見る",
+    "random": "ランダムページ",
+    "search": "Wikiを検索...",
+    "lang": "言語",
+    "profile": "プロフィール",
+    "theme": "テーマ",
+    "light": "ライト",
+    "dark": "ダーク",
+    "layout": "レイアウト",
+    "nav": "ナビゲーションコントロール",
+    "toc": "目次",
+    "toc_empty": "見出しがありません",
+    "top": "トップへ",
+    "bottom": "ボトムへ"
+  },
+  "sidebar": {
+    "list": "一覧",
+    "home": "ホーム",
+    "docs": "ドキュメント",
+    "calc": "計算機",
+    "edit": "エディタ",
+    "etc": "その他",
+    "version": "Wiki マインクラフトバージョン",
+    "wiki_credits": "Wiki クレジット"
+  },
+  "pages": {
+    "calc": "計算機",
+    "editor": "エディタ"
+  },
+  "search": {
+    "result": "検索結果",
+    "other_keyword": "別のキーワードを入力してください。"
+  }
+}
