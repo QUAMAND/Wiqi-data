@@ -1,0 +1,23 @@
+[
+  {
+    "url": "/dat",
+    "title": ".dat 파일 내용 표시 도구",
+    "subtitle": "",
+    "file": "edit",
+    "type": "component"
+  },
+  {
+    "url": "/nbt",
+    "title": ".nbt 파일 내용 표시 도구",
+    "subtitle": "",
+    "file": "edit",
+    "type": "component"
+  },
+  {
+    "url": "/structure/viewer",
+    "title": "구조물 표시 도구",
+    "subtitle": ".nbt 구조물 파일을 시각적으로 표시합니다.",
+    "file": "edit",
+    "type": "component"
+  }
+]

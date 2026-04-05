@@ -9,7 +9,14 @@
   {
     "url": "/chunk/pos",
     "title": "청크 좌표 계산기",
-    "subtitle": "",
+    "subtitle": "청크 내 위치를 계산합니다.",
+    "file": "calc",
+    "type": "component"
+  },
+  {
+    "url": "/entity/infov",
+    "title": "시야각 계산기",
+    "subtitle": "entity가 화면에 들어오는 지 확인합니다.",
     "file": "calc",
     "type": "component"
   }
