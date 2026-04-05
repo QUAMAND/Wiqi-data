@@ -4,30 +4,35 @@
     "title": "제1 장 데이터 팩이란 무엇인가?",
     "subtitle": "",
     "file": "doc/1/01/1.md",
+    "type": "file",
     "children": [
       {
         "url": "/1/01/1",
         "title": "01-1 데이터 팩이란?",
         "subtitle": "데이터 팩 소개",
-        "file": "doc/1/01/1.md"
+        "file": "doc/1/01/1.md",
+        "type": "file"
       },
       {
         "url": "/1/01/2",
         "title": "01-2 데이터 팩의 특징",
         "subtitle": "데이터 팩 특징",
-        "file": "doc/1/01/2.md"
+        "file": "doc/1/01/2.md",
+        "type": "file"
       },
       {
         "url": "/1/01/3",
         "title": "01-3 데이터 팩 만들기",
         "subtitle": "데이터 팩 제작",
         "file": "doc/1/01/3.md",
+        "type": "file",
         "children": [
           {
             "url": "/1/01/3/1",
             "title": "01-3-1 pack.mcmeta",
             "subtitle": "pack.mcmeta 소개",
-            "file": "doc/1/01/3-1.md"
+            "file": "doc/1/01/3-1.md",
+            "type": "file"
           }
         ]
       }
@@ -37,36 +42,42 @@
     "url": "/1/02/0",
     "title": "제2 장 함수의 기초",
     "file": "doc/1/02/1.md",
+    "type": "file",
     "children": [
       {
         "url": "/1/02/1",
         "title": "02-1 함수란?",
         "subtitle": "함수 소개",
-        "file": "doc/1/02/1.md"
+        "file": "doc/1/02/1.md",
+        "type": "file"
       },
       {
         "url": "/1/02/2",
         "title": "02-2 함수의 load와 tick",
         "subtitle": "특정한 함수",
-        "file": "doc/1/02/2.md"
+        "file": "doc/1/02/2.md",
+        "type": "file"
       },
       {
         "url": "/1/02/3",
         "title": "02-3 함수의 반환",
         "subtitle": "반환 함수",
-        "file": "doc/1/02/3.md"
+        "file": "doc/1/02/3.md",
+        "type": "file"
       },
       {
         "url": "/1/02/4",
         "title": "02-4 재귀함수",
         "subtitle": "재귀함수",
         "file": "doc/1/02/4.md",
+        "type": "file",
         "children": [
           {
             "url": "/1/02/4/1",
             "title": "02-4-1 레이캐스팅",
             "subtitle": "레이캐스팅",
-            "file": "doc/1/02/4-1.md"
+            "file": "doc/1/02/4-1.md",
+            "type": "file"
           }
         ]
       },
@@ -74,7 +85,8 @@
         "url": "/1/02/5",
         "title": "02-5 함수의 지연",
         "subtitle": "함수 지연",
-        "file": "doc/1/02/5.md"
+        "file": "doc/1/02/5.md",
+        "type": "file"
       }
     ]
   },
@@ -82,36 +94,42 @@
     "url": "/1/03/0",
     "title": "제3 장 술어의 기초",
     "file": "doc/1/03/1.md",
+    "type": "file",
     "children": [
       {
         "url": "/1/03/1",
         "title": "03-1 술어란?",
         "subtitle": "술어 소개",
-        "file": "doc/1/03/1.md"
+        "file": "doc/1/03/1.md",
+        "type": "file"
       },
       {
         "url": "/1/03/2",
         "title": "03-2 all_of",
         "subtitle": "AND 연산",
-        "file": "doc/1/03/2.md"
+        "file": "doc/1/03/2.md",
+        "type": "file"
       },
       {
         "url": "/1/03/3",
         "title": "03-3 any_of",
         "subtitle": "OR 연산",
-        "file": "doc/1/03/3.md"
+        "file": "doc/1/03/3.md",
+        "type": "file"
       },
       {
         "url": "/1/03/4",
         "title": "03-4 entity_properties",
         "subtitle": "엔티티 상태",
         "file": "doc/1/03/4.md",
+        "type": "file",
         "children": [
           {
             "url": "/1/03/4/1",
             "title": "03-4-1 properties",
             "subtitle": "엔티티 상태들",
-            "file": "doc/1/03/4-1.md"
+            "file": "doc/1/03/4-1.md",
+            "type": "file"
           }
         ]
       },
@@ -119,19 +137,22 @@
         "url": "/1/03/5",
         "title": "03-5 inverted",
         "subtitle": "NOT 게이트",
-        "file": "doc/1/03/5.md"
+        "file": "doc/1/03/5.md",
+        "type": "file"
       },
       {
         "url": "/1/03/6",
         "title": "03-6 location_check",
         "subtitle": "위치 확인",
         "file": "doc/1/03/6.md",
+        "type": "file",
         "children": [
           {
             "url": "/1/03/6/1",
             "title": "03-6-1 locations",
             "subtitle": "위치 정보들",
-            "file": "doc/1/03/6-1.md"
+            "file": "doc/1/03/6-1.md",
+            "type": "file"
           }
         ]
       },
@@ -139,7 +160,8 @@
         "url": "/1/03/7",
         "title": "03-7 weather_check",
         "subtitle": "날씨 확인",
-        "file": "doc/1/03/7.md"
+        "file": "doc/1/03/7.md",
+        "type": "file"
       }
     ]
   },
@@ -147,42 +169,49 @@
     "url": "/1/04/0",
     "title": "제4 장 루트 테이블의 기초",
     "file": "doc/1/04/1.md",
+    "type": "file",
     "children": [
       {
         "url": "/1/04/1",
         "title": "04-1 루트 테이블이란?",
         "subtitle": "루트 테이블 소개",
-        "file": "doc/1/04/1.md"
+        "file": "doc/1/04/1.md",
+        "type": "file"
       },
       {
         "url": "/1/04/2",
         "title": "04-2 entries",
         "subtitle": "항목들",
-        "file": "doc/1/04/2.md"
+        "file": "doc/1/04/2.md",
+        "type": "file"
       },
       {
         "url": "/1/04/3",
         "title": "04-3 functions",
         "subtitle": "기능들",
         "file": "doc/1/04/3.md",
+        "type": "file",
         "children": [
           {
             "url": "/1/04/3/1",
             "title": "04-3-1 set",
             "subtitle": "변경",
-            "file": "doc/1/04/3-1.md"
+            "file": "doc/1/04/3-1.md",
+            "type": "file"
           },
           {
             "url": "/1/04/3/2",
             "title": "04-3-2 copy",
             "subtitle": "복사",
-            "file": "doc/1/04/3-2.md"
+            "file": "doc/1/04/3-2.md",
+            "type": "file"
           },
           {
             "url": "/1/04/3/3",
             "title": "04-3-3 etc",
             "subtitle": "기타",
-            "file": "doc/1/04/3-3.md"
+            "file": "doc/1/04/3-3.md",
+            "type": "file"
           }
         ]
       },
@@ -190,7 +219,8 @@
         "url": "/1/04/4",
         "title": "04-4 conditions",
         "subtitle": "조건들",
-        "file": "doc/1/04/4.md"
+        "file": "doc/1/04/4.md",
+        "type": "file"
       }
     ]
   },
@@ -198,12 +228,14 @@
     "url": "/1/05/0",
     "title": "제5 장 발전과제의 기초",
     "file": "doc/1/05/1.md",
+    "type": "file",
     "children": [
       {
         "url": "/1/05/1",
         "title": "05-1 발전과제란?",
         "subtitle": "발전과제 소개",
-        "file": "doc/1/05/1.md"
+        "file": "doc/1/05/1.md",
+        "type": "file"
       }
     ]
   },
@@ -211,12 +243,14 @@
     "url": "/1/06/0",
     "title": "제6 장 인챈트의 기초",
     "file": "doc/1/06/1.md",
+    "type": "file",
     "children": [
       {
         "url": "/1/06/1",
         "title": "06-1 인챈트란?",
         "subtitle": "인챈트 소개",
-        "file": "doc/1/06/1.md"
+        "file": "doc/1/06/1.md",
+        "type": "file"
       }
     ]
   }
