@@ -41,8 +41,8 @@ public static void register(final CommandDispatcher<CommandSourceStack> dispatch
 }
 ```
 
-- 명령어 인수에 대한 내용은 [[:markdown: Argument](#/doc/3/argument)]를 참고하세요. (targets, pos 등)
-- 명령어 구문 분석에 대한 내용은 [[:markdown: Brigadier](#/doc/3/brigadier)]를 참고하세요.
+- 명령어 인수에 대한 내용은 [[:markdown: Argument](#/doc/3/command/argument)]를 참고하세요. (`targets`, `pos` 등)
+- 명령어 구문 분석에 대한 내용은 [[:markdown: Brigadier](#/doc/3/command/brigadier)]를 참고하세요.
 
 <br/>
 
