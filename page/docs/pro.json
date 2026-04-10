@@ -1,0 +1,30 @@
+[
+  {
+    "url": "/3/command",
+    "title": "명령어",
+    "subtitle": "Command",
+    "file": "doc/3/command.md",
+    "type": "file"
+  },
+  {
+    "url": "/3/command/argument",
+    "title": "명령어 인수",
+    "subtitle": "Argument",
+    "file": "doc/3/argument.md",
+    "type": "file"
+  },
+  {
+    "url": "/3/mcfunction",
+    "title": "명령어",
+    "subtitle": ".mcfunction",
+    "file": "doc/3/mcfunction.md",
+    "type": "file"
+  },
+  {
+    "url": "/3/brigadier",
+    "title": "명령어",
+    "subtitle": "Brigadier",
+    "file": "doc/3/brigadier.md",
+    "type": "file"
+  }
+]

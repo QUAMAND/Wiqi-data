@@ -12,6 +12,7 @@
 
 이 문서에서는 명령어를 처음부터 끝까지 학습할 수 있도록 구성했습니다.
 
+<br/>
 
 # 명령어
 마인크래프트에서 명령어는 단순 텍스트 입력으로 실행되는 것이 아닙니다. 내부적으로는 명령어를 해석하고 실행하는 하나의 시스템으로 존재합니다.
@@ -19,70 +20,92 @@
 ## 명령어의 등록
 모든 명령어는 고유한 값을 가진 데이터로 저장되어 있는데, 이러한 데이터를 실제로 사용할 수 있도록 게임 내에 등록하는 과정이 필요합니다.
 
-예를 들어, `/spawnpoint` 명령어는 다음 `Tree`(트리) 구조로 게임에 등록됩니다.
+코드에서는 `명령어.register`의 형태로 이루어져 있으며, 명령어 `Class`(클래스)내에 정의되어 있습니다.
+
+예를 들어, `/gamemode` 명령어의 경우 다음과 같이 이루어져 있습니다.
 
 ```js
-spawnpoint
-spawnpoint targets
-spawnpoint targets pos
-spawnpoint targets pos angle
+public static void register(final CommandDispatcher<CommandSourceStack> dispatcher) {
+  dispatcher.register(
+    Commands.literal("gamemode")
+      .requires(Commands.hasPermission(PERMISSION_CHECK))
+
+      .then(Commands.argument("gamemode", GameModeArgument.gameMode())
+        .executes(c -> setMode(c, Collections.singleton(c.getSource().getPlayerOrException()), GameModeArgument.getGameMode(c, "gamemode")))
+
+        .then(Commands.argument("target", EntityArgument.players())
+          .executes(c -> setMode(c, EntityArgument.getPlayers(c, "target"), GameModeArgument.getGameMode(c, "gamemode")))
+        )
+      )
+  );
+}
 ```
 
-1. 인수를 받지 않습니다.
-2. `targets` 인수만 받습니다.
-3. `targets`, `pos` 인수만 받습니다.
-4.  `targets`, `pos`, `angle` 인수만 받습니다.
-
-- 명령어 인수에 대한 내용은 [[명령어 인수]]를 참고하세요.
+- 명령어 인수에 대한 내용은 [[:markdown: Argument](#/doc/3/argument)]를 참고하세요. (targets, pos 등)
+- 명령어 구문 분석에 대한 내용은 [[:markdown: Brigadier](#/doc/3/brigadier)]를 참고하세요.
 
 <br/>
 
 이러한 명령어 등록은 어떠한 환경인지에 따라 여부가 달라집니다.
 
-```js
-if (JFR을 설치 가능한 환경이라면) {
-  /jfr 명령어를 등록합니다.
-}
+<details>
+  <summary>환경에 따른 명령어 목록</summary>
 
-if (CHASE_COMMAND JVM 인수가 true로 설정되어 있다면){
-  /chase 명령어를 등록합니다.
-}
-
-if (DEV_COMMANDS JVM 인수가 true로 설정되어 있다면 || 마인크래프트가 IDE에서 실행되어 있다면) {
-  /raid 명령어를 등록합니다.
-  /debugpath 명령어를 등록합니다.
-  /debugmobspawning 명령어를 등록합니다.
-  /warden_spawn_tracker 명령어를 등록합니다.
-  /spawn_armor_trims 명령어를 등록합니다.
-  /serverpack 명령어를 등록합니다.
-  if (전용 서버(server.jar)라면) {
-    /debugconfig 명령어를 등록합니다.
+  ```js
+  if (JFR을 설치 가능한 환경이라면) {
+    /jfr 명령어를 등록합니다.
   }
-}
 
-if (전용 서버(server.jar)라면) {
-  /ban-ip 명령어를 등록합니다.
-  /banlist 명령어를 등록합니다.
-  /ban 명령어를 등록합니다.
-  /deop 명령어를 등록합니다.
-  /op 명령어를 등록합니다.
-  /pardon 명령어를 등록합니다.
-  /pardon-ip 명령어를 등록합니다.
-  /perf 명령어를 등록합니다.
-  /save-all 명령어를 등록합니다.
-  /save-off 명령어를 등록합니다.
-  /save-on 명령어를 등록합니다.
-  /setidletimeout 명령어를 등록합니다.
-  /stop 명령어를 등록합니다.
-  /transfer 명령어를 등록합니다.
-  /whitelist 명령어를 등록합니다.
-}
+  if (CHASE_COMMAND JVM 인수가 true로 설정되어 있다면){
+    /chase 명령어를 등록합니다.
+  }
 
-if (싱글(클라이언트) 서버라면) {
-  /publish 명령어를 등록합니다.
-}
+  if (DEV_COMMANDS JVM 인수가 true로 설정되어 있다면 || 마인크래프트가 IDE에서 실행된다면) {
+    /raid 명령어를 등록합니다.
+    /debugpath 명령어를 등록합니다.
+    /debugmobspawning 명령어를 등록합니다.
+    /warden_spawn_tracker 명령어를 등록합니다.
+    /spawn_armor_trims 명령어를 등록합니다.
+    /serverpack 명령어를 등록합니다.
+    if (전용 서버(server.jar)라면) {
+      /debugconfig 명령어를 등록합니다.
+    }
+  }
 
-else {
-  기본 명령어는 다른 조건 없이 모두 등록됩니다.
-}
+  if (전용 서버라면) {
+    /ban-ip 명령어를 등록합니다.
+    /banlist 명령어를 등록합니다.
+    /ban 명령어를 등록합니다.
+    /deop 명령어를 등록합니다.
+    /op 명령어를 등록합니다.
+    /pardon 명령어를 등록합니다.
+    /pardon-ip 명령어를 등록합니다.
+    /perf 명령어를 등록합니다.
+    /save-all 명령어를 등록합니다.
+    /save-off 명령어를 등록합니다.
+    /save-on 명령어를 등록합니다.
+    /setidletimeout 명령어를 등록합니다.
+    /stop 명령어를 등록합니다.
+    /transfer 명령어를 등록합니다.
+    /whitelist 명령어를 등록합니다.
+  }
+
+  if (싱글 서버라면) {
+    /publish 명령어를 등록합니다.
+  }
+
+  else {
+    기본 명령어는 다른 조건 없이 모두 등록됩니다.
+  }
+  ```
+</details>
+
+모든 명령어는 사용할 문자열 입력 -> 권한 확인 -> 하위 인수 입력 및 실행으로 구현되어 있습니다.
+
+## 명령어의 구조
+명령어는 정해진 규칙에 따라 해석되는데, 기본적인 형태는 다음과 같습니다.
+
+```js
+/command <required> [optional]
 ```
+
